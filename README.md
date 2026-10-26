@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 26-10-2026
+## Register Number: 212225040482
+## Name: Varsha S
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,15 +11,63 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-
+To develop a smart railway station navigation system that helps passengers easily find platforms, ticket counters, restrooms, food courts, waiting halls, lifts, escalators, and other facilities using an interactive digital map.
 
 ## Proposed Solution / Architecture Diagram
+<img width="441" height="661" alt="Screenshot 2026-10-26 172306" src="https://github.com/user-attachments/assets/d0b1a3d7-4ffd-4fd4-ab65-6952449385c7" />
 
 
 ## Use Cases
+Passengers can locate platforms, ticket counters, restrooms, food courts, and waiting halls.
 
+Users can view interactive station maps and follow step-by-step directions.
+
+Visually impaired passengers can use voice-guided navigation.
+
+Wheelchair users can find accessible routes using lifts and ramps.
+
+Passengers can receive updates about facility locations and temporary route changes.
+
+New passengers can find the nearest exit, enquiry counter, or emergency facility.
+
+Railway authorities can update station maps and facility information.
 
 ## Technology Stack
+Frontend: HTML, CSS, JavaScript / React
 
+Mobile Application: React Native or Flutter
+
+Backend: Python with Django or Flask
+
+Database: MySQL or PostgreSQL
+
+Mapping: OpenStreetMap with Leaflet
+
+Navigation: Graph-based shortest-path algorithm (Dijkstra's algorithm or A*)
+
+Voice Guidance: Text-to-Speech (TTS)
+
+Location Services: GPS for outdoor positioning and QR codes or indoor positioning methods for indoor navigation
+
+Tools: VS Code, Git, and GitHub
 
 ## Dependencies
+Python
+
+Django or Flask
+
+React or HTML, CSS, and JavaScript
+
+MySQL or PostgreSQL database
+
+OpenStreetMap and Leaflet mapping libraries
+
+Accurate railway station floor maps and facility data
+
+Internet connectivity for online updates and map services
+
+GPS, QR codes, or suitable indoor positioning infrastructure
+
+Text-to-Speech support for voice-guided navigation
+
+Mobile phone or touchscreen kiosk for accessing the system
